@@ -212,7 +212,11 @@ function DesktopDownloadView({ id }: { id: string }) {
         <Menu.Paragraph marginClass="mb-6">
           <Trans i18nKey="player.menus.downloads.desktopDisclaimer" />
         </Menu.Paragraph>
-        <Button className="w-full" theme="purple" onClick={startOfflineDownload}>
+        <Button
+          className="w-full"
+          theme="purple"
+          onClick={startOfflineDownload}
+        >
           {t("player.menus.downloads.offlineButton")}
         </Button>
       </Menu.Section>
